@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("fondo.png");
+}
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    border: 10px dashed rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+#player {
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    position: absolute;
+    transition: all 0.3s;
+    background-image: url("tiro.png")
+}
+
+.pointer {
+    background-color: #F7610B;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 10px 0px;
+}
+
+#enemigo {
+    background-image: url("bomba.png");
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    position: absolute;
+    transition: all 0.3s;
+    margin-top: 100px;
+}
+
+#enemigo2 {
+    background-image: url("bomba2.png");
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    position: absolute;
+    transition: all 0.3s;
+    margin-top: 100px;
+}
+
+.niveles {
+    margin-bottom: 70px;
+    padding: 0px;
+    background-color: red;
+}
